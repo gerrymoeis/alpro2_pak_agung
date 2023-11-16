@@ -9,3 +9,15 @@
     3. Dea Ayu Novita Putri - 23091397173
 """
 
+# Membuat fungsi turn_right
+def turn_right():
+    # Looping fungsi turn_left() sebanyak 3 kali
+    for i in range(3):
+        turn_left()
+
+# Membuat fungsi jump()
+def jump():
+    # Memanggil fungsi turn_right() dan move()
+    turn_right()
+    move()
+    
